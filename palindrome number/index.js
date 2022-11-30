@@ -1,3 +1,8 @@
+/**
+ *
+ * @param {number} x
+ * @returns {boolean}
+ */
 function isPalindrome1(x) {
   let reversedNumber = 0;
   for (let i = x; i > 0; i = Math.floor(i / 10)) {
@@ -6,6 +11,11 @@ function isPalindrome1(x) {
   return reversedNumber === x;
 }
 
+/**
+ *
+ * @param {number} x
+ * @returns {boolean}
+ */
 function isPalindrome2(x) {
   const copyNumber = x;
   let reversedNumber = 0;

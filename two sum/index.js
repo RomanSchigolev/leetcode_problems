@@ -1,3 +1,9 @@
+/**
+ *
+ * @param {number[]} nums
+ * @param {number} target
+ * @returns {number[]}
+ */
 function twoSum(nums, target) {
   const hashTable = {};
   for (let i = 0; i < nums.length; i++) {
