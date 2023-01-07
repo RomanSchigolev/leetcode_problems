@@ -569,3 +569,42 @@ Output: 17
 - `n == accounts[i].length`
 - `1 <= m, n <= 50`
 - `1 <= accounts[i][j] <= 100`
+
+---
+
+## CountSymbols
+
+This task is not from the LeetCode platform.
+
+```
+Input: s = "aabbwwzz", t = "ab"
+Output: 4
+Explanation:
+the letter a from the second string t occurs in the first string s - 2 times
+the letter b from the second string t occurs in the first string s - 2 times
+2 + 2 = 4
+As a result , we have the number 4 at the output.
+```
+
+```
+Input: s = "aabbwwzza", t = "abc"
+Output: 5
+Explanation:
+the letter a from the second string t occurs in the first string s - 3 times
+the letter b from the second string t occurs in the first string s - 2 times
+the letter c from the second string t occurs in the first string s - 0 times
+3 + 2 + 0 = 5
+As a result , we have the number 5 at the output.
+```
+
+```
+Input: s = "aabbwwzzaa", t = "bacd" -> 6
+Output: 6
+Explanation:
+the letter b from the second string t occurs in the first string s - 2 times
+the letter a from the second string t occurs in the first string s - 4 times
+the letter c from the second string t occurs in the first string s - 0 times
+the letter d from the second string t occurs in the first string s - 0 times
+2 + 4 + 0 + 0 = 6
+As a result , we have the number 6 at the output.
+```
