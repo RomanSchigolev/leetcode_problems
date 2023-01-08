@@ -576,6 +576,8 @@ Output: 17
 
 This task is not from the LeetCode platform.
 
+**Example 1:**
+
 ```
 Input: s = "aabbwwzz", t = "ab"
 Output: 4
@@ -585,6 +587,8 @@ the letter b from the second string t occurs in the first string s - 2 times
 2 + 2 = 4
 As a result , we have the number 4 at the output.
 ```
+
+**Example 2:**
 
 ```
 Input: s = "aabbwwzza", t = "abc"
@@ -597,6 +601,8 @@ the letter c from the second string t occurs in the first string s - 0 times
 As a result , we have the number 5 at the output.
 ```
 
+**Example 3:**
+
 ```
 Input: s = "aabbwwzzaa", t = "bacd" -> 6
 Output: 6
@@ -607,4 +613,45 @@ the letter c from the second string t occurs in the first string s - 0 times
 the letter d from the second string t occurs in the first string s - 0 times
 2 + 4 + 0 + 0 = 6
 As a result , we have the number 6 at the output.
+```
+
+---
+
+## Get Param
+
+Write a function that gets an object and the path to the nested property of the object and returns the value of this property (or undefined if the property does not exist).
+
+**Example 1:**
+
+```
+Input: obj = { a: { b: 5 } }, path = "a.b"
+Output: 5
+```
+
+**Example 2:**
+
+```
+Input: obj = { a: { b: false } }, path = "a.b"
+Output: false
+```
+
+**Example 3:**
+
+```
+Input: obj = { a: { b: 5 } }, path = "a.b.c"
+Output: undefined
+```
+
+**Example 4:**
+
+```
+Input: obj = { a: { b: 5 } }, path = "a"
+Output: { b: 5 }
+```
+
+**Example 5:**
+
+```
+Input: obj = {}, path = "a"
+Output: undefined
 ```
